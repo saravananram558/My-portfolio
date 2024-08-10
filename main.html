@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Your Name</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I'm a Fullstack Developer with a passion for building web applications.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>Detail your background, experience, and what you bring to the table. Share your story and what drives you.</p>
+    </section>
+
+    <section id="projects" class="slide-up">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Brief description of the project.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project Title 3</h3>
+                <p>Brief description of the project.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="zoom-in">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS/SCSS</li>
+            <li>JavaScript</li>
+            <li>Angular</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

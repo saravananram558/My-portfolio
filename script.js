@@ -20,3 +20,13 @@ document.getElementById('download-cv').addEventListener('click', function(event)
         window.location.href = 'showMessage.html'; // Replace with your actual PDF file path
     // }
 });
+
+// Smooth scroll effect for navigation
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener('click', function (e) {
+//         e.preventDefault();
+//         document.querySelector(this.getAttribute('href')).scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//     });
+// });
